@@ -1,65 +1,95 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-#root{
-    height: 100%;
+#root {
+  height: 100%;
 }
-.mahjong-score-calc{
-    height: 100%;
+.mahjong-score-calc {
+  height: 100%;
 }
-header{
-    background-color: #c62300;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header {
+  background-color: #c62300;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-header h1{
-    font-size: 50px;
-    color: #e4cc01;
+header h1 {
+  font-size: 50px;
+  color: #e4cc01;
 }
-.home{
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.home {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-main{
-    background-color: green;
-    color: white;
+main {
+  background-color: green;
+  color: white;
 }
 
 h1 {
-    size: 50px;
-    color: rgb(145 111 255);
+  size: 50px;
+  color: rgb(145 111 255);
 }
-.pinzu button{
-    color: rgb(8, 2, 189);
+.pinzu button {
+  color: rgb(8, 2, 189);
 }
-.manzu button{
-    color: red;
+.manzu button {
+  color: red;
 }
-.souzu button{
-    color: green;
+.souzu button {
+  color: green;
 }
-.kaze button{
-    color: black
+.kaze button {
+  color: black;
 }
-.haku{
-    color: white;
-    text-shadow:
-        1px 1px 0px #000, -1px -1px 0px #000,
-        -1px 1px 0px #000,  1px -1px 0px #000,
-        1px 0px 0px #000, -1px  0px 0px #000,
-        0px 1px 0px #000,  0px -1px 0px #000;
+.haku {
+  color: white;
+  text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000,
+    1px -1px 0px #000, 1px 0px 0px #000, -1px 0px 0px #000, 0px 1px 0px #000,
+    0px -1px 0px #000;
 }
-.hatu{
-    color: green;
+.hatu {
+  color: green;
 }
-.chun{
-    color: red;
+.chun {
+  color: red;
 }
+
+#haifu {
+  font-size: 40px;
+}
+
+.phaifu {
+  color: rgb(12, 38, 238);
+}
+
+.mhaifu {
+  color: red;
+}
+
+.shaifu {
+  color: rgb(151, 255, 151);
+}
+.zhaifu {
+  color: aqua;
+}
+
+/* .yaku1 {
+  background-color: aqua;
+}
+.yaku2 {
+}
+.yaku3 {
+}
+.yaku6 {
+}
+.yakuman {
+} */
